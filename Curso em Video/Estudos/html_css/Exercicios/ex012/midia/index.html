@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vídeos com HTML 5</title>
+
+</head>
+
+<body>
+    <h1>Inserir vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    <video src="lucas-1.m4v" controls></video>
+    <!--Modo simples de exibição de vídeo-->
+    <video width="560" poster="../imagens/logo art music.jpg" controls>
+        <source src=" Meus-Videos 640-1.m4v " type="video/mp4 ">
+        <source src="Meus-Videos720-1.m4v " type="video/mp4 ">
+        <source src="Meus-Videos720-1-1.webm " type="video/webm ">
+        <source src="Meus-Videos1080-1.m4v " type="video/mp4 ">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+        <!--Modo de exibição composta de vários tipos de arquivos
+    desta forma consegue abranger o maior número de operadoras para que o web site
+seja exibido para o maior número de pessoas. Caso nenhuma destas formas não corresponda
+será exibido uma mensagem de erro com isso o usuário esta ciente da situação.-->
+    </video>
+    <h1>Inserindo vídeos do YouTube</h1>
+    <!--Para inserir os vídeos do YouTube é só clicar em COMPARTILHAR,
+    e seguida deve se marcar INCORPORAR será exibido outra tela com o endereço do vídeo
+    em HTML5 e se não tiver alguma alteração é só clicar em COPIAR e em seguida
+Retorne ao local que queira exibir o vídeo e clique CTRL V, com isso o código será inserido, com isso a Vídeo será exibido.-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/eF9Qoc6p_4Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h1> Inserindo vídeos do Vimeo</h1>
+    <!--Para inserir os vídeos do Vimeo é só clicar em COMPARTILHAR,
+    e seguida deve se marcar + MOSTRAR OPÇÕES será exibido outros dados do vídeo como o TAMANHO DO VÍDEO, INSTRUÇÃO: RETRATO DO AUTOR, TÍTULO, AUTORIA. COISAS ESPECIAIS:
+    REPRODUZIR O VÍDEO AUTOMATICAMENTE, ATIVAR REPETIÇÃO DESTE VÍDEO MOSTRAR LINK DE TEXTO ABAIXO DESTE VÍDEO, EXIBIR A DESCRIÇÃO DO VÍDEO ABAIXO DELE. Em seguida deve ir até INCORPORAR e clicar dentro do texto e teclar CTRL C e em seguida ir para o local que deseja exibir o vídeo e colar o texto com comandos em HTML5 e se não tiver alguma alteração é só clicar em COPIAR e em seguida
+Retorne ao local que queira exibir o vídeo e clique CTRL V, com isso o código será inserido, com isso a Vídeo será exibido.-->
+    <iframe src="https://player.vimeo.com/video/197093965?autoplay=1&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+
+</html>

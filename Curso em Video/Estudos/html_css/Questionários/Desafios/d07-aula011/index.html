@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Imagens Flexível</title>
+</head>
+
+<body>
+    <h1>Imagem Flexível</h1>
+    <p>Você está vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aproveitar a melhor experiência &#x1f60e</p>
+    <picture>
+        <!--sempre organizar a ordem de exibição, grande, médio, pequeno-->
+        <!--a ordem de ser de baixo para cima - <img src="imagens/paisagem-g.png"> - <source media=("max-width:1050px")> - <source media=("max-width:750px")-->
+        <!--se a imagem for menor que 750 exibe a imagem pequena -->
+        <source media="(max-width:750px )" srcset="imagens/paisagem-p.png" type="image/png">
+        <!--se a imagem for menor que 1050 exibe a imagem média -->
+        <source media="(max-width:1050px )" srcset="imagens/paisagem-m.png" type="image/png">
+        <!--Exibir a imagem desejada-->
+        <img src="imagens/paisagem-g.png" alt="Imagem Grande">
+    </picture>
+</body>
+
+</html>

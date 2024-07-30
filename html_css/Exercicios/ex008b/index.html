@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="Logo_ico.ico" type="image/x-icon">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras Formatações</h1>
+    <h2>Código-fonte / Pré-Formatação</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem Javascript</p>
+    <pre>
+        <code>
+    num = int(input('Digite um número'))
+    if num % 2 == 0:
+        print(f'O número {num} é PAR')
+    else:
+        print(f'O número {num} é IMPAR')
+    print('Fim do Programa')
+        </code>
+    </pre>
+    <h2>Citações Simples</h2>
+    <!--Não existe quebra de linha do texto-->
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p>
+    <h2>Citações Completas</h2>
+    <!--Existe quebra de linha e alinhamento do texto-->
+    <!-- Tag cite e usado para indicar o local que foi utilizado o conteúdo do texto, utilizando o link do local que foi retirado o texto exibido ou utilizado-->
+    <p>Segundo Jeff Noble, no seu livro HTML para leigos:</p>
+    <blockquote cite="https://books.google.co.jp/books?id=E8ZtDwAAQBAJ&dq=html+para+leigos&hl=pt-BR&sa=X&ved=2ahUKEwiRjd6MyPLuAhVoxYsBHctcAegQ6AEwAHoECAAQAg">
+        A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.
+        </blockquote cite>
+        <h2>Abreviação</h2>
+        <!--Utilizado para demostração do sentido da abreviação ou sigla -->
+        <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou Adorando !.</p>
+        <h2>Texto Invertido</h2>
+        <!--Usa esta tag para inverter o texto marcado-->
+        <p><bdo dir="ltr">Estou aprendendo a criar coisas em HTML.</bdo></p>
+</body>
+
+</html>
